@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/base.css">
+  </head>
+  <body>
+    <div id="app">
+
+    </div>
+    <script src="js/vendor/react/react.js"></script>
+    <script src="js/vendor/react/react-dom.js"></script>
+   <script src="js/vendor/babel/browser.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/babel">
+      'use strict';
+      var App = React.createClass({
+        getInitialState: function() {
+          return {
+              title: ""
+          };
+        },
+        render: function() {
+          return (
+            <div className="container-fluid">
+              <div className="row">
+              </div>
+            </div>
+          );
+        }
+      });
+
+      ReactDOM.render(<App />, document.getElementById('app'));
+    </script>
+  </body>
+  </body>
+</html>
